@@ -1,0 +1,7 @@
+﻿  real.cpp
+C:\cpp\3주차\real.cpp(12,19): error C3861: 'loadSeat': 식별자를 찾을 수 없습니다.
+C:\cpp\3주차\real.cpp(14,3): error C3861: 'menu': 식별자를 찾을 수 없습니다.
+  testMain.cpp
+C:\cpp\3주차\testMain.cpp(12,19): error C3861: 'loadSeat': 식별자를 찾을 수 없습니다.
+C:\cpp\3주차\testMain.cpp(14,3): error C3861: 'menu': 식별자를 찾을 수 없습니다.
+  코드를 생성하고 있습니다...

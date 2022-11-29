@@ -1,0 +1,40 @@
+﻿  ArrayDataSmart.cpp
+C:\cpp\6주자과제\ArrayData.h(38,59): error C2065: 'T1': 선언되지 않은 식별자입니다.
+C:\cpp\6주자과제\ArrayData.h(39): message : 컴파일되는 클래스 템플릿 인스턴스화 'ArrayData<T>'에 대한 참조를 확인하세요.
+C:\cpp\6주자과제\ArrayData.h(38,49): error C2923: 'ArrayData': 'T1'은(는) 'T' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\cpp\6주자과제\ArrayData.h(38): message : 'T1' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.h(5,1): error C2955: 'ArrayData': 클래스 템플릿을(를) 사용하려면 템플릿 인수 목록이 필요합니다.
+C:\cpp\6주자과제\ArrayData.h(6): message : 'ArrayData' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(10,72): error C2039: 'capacity': 'ArrayDataSmart'의 멤버가 아닙니다.
+C:\cpp\6주자과제\ArrayDataSmart.h(3): message : 'ArrayDataSmart' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(10,46): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(10,3): error C2614: 'ArrayDataSmart': 멤버 초기화가 잘못되었습니다. 'ArrayData'이(가) 기본 또는 멤버가 아닙니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(18,3): error C2614: 'ArrayDataSmart': 멤버 초기화가 잘못되었습니다. 'ArrayData'이(가) 기본 또는 멤버가 아닙니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(24,4): error C2614: 'ArrayDataSmart': 멤버 초기화가 잘못되었습니다. 'ArrayData'이(가) 기본 또는 멤버가 아닙니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(37,11): error C2065: 'used': 선언되지 않은 식별자입니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(39,24): error C2563: 정식 매개 변수 목록과 일치하지 않는 항목이 있습니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(47,3): error C2065: 'used': 선언되지 않은 식별자입니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(49,10): error C2563: 정식 매개 변수 목록과 일치하지 않는 항목이 있습니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(61,13): error C2955: 'ArrayData': 클래스 템플릿을(를) 사용하려면 템플릿 인수 목록이 필요합니다.
+C:\cpp\6주자과제\ArrayData.h(6): message : 'ArrayData' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(61,26): error C2665: 'ArrayData<T>::operator =': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\cpp\6주자과제\ArrayData.h(34,13): message : 'ArrayData<T> &ArrayData<T>::operator =(ArrayData<T> &&) noexcept'일 수 있습니다.
+C:\cpp\6주자과제\ArrayData.h(33,13): message : 또는       'ArrayData<T> &ArrayData<T>::operator =(const ArrayData<T> &)'
+C:\cpp\6주자과제\ArrayDataSmart.cpp(61,26): message : 인수 목록 '(const ArrayDataSmart)'을(를) 일치시키는 동안
+C:\cpp\6주자과제\ArrayDataSmart.cpp(63,39): error C2039: 'capacity': 'ArrayDataSmart'의 멤버가 아닙니다.
+C:\cpp\6주자과제\ArrayDataSmart.h(3): message : 'ArrayDataSmart' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(63,13): error C2672: 'std::make_unique': 일치하는 오버로드된 함수가 없습니다.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(77,13): error C2955: 'ArrayData': 클래스 템플릿을(를) 사용하려면 템플릿 인수 목록이 필요합니다.
+C:\cpp\6주자과제\ArrayData.h(6): message : 'ArrayData' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.cpp(77,26): error C2665: 'ArrayData<T>::operator =': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+C:\cpp\6주자과제\ArrayData.h(34,13): message : 'ArrayData<T> &ArrayData<T>::operator =(ArrayData<T> &&) noexcept'일 수 있습니다.
+C:\cpp\6주자과제\ArrayData.h(33,13): message : 또는       'ArrayData<T> &ArrayData<T>::operator =(const ArrayData<T> &)'
+C:\cpp\6주자과제\ArrayDataSmart.cpp(77,26): message : 인수 목록 '(ArrayDataSmart)'을(를) 일치시키는 동안
+  testMain.cpp
+C:\cpp\6주자과제\ArrayData.h(38,59): error C2065: 'T1': 선언되지 않은 식별자입니다.
+C:\cpp\6주자과제\ArrayData.h(39): message : 컴파일되는 클래스 템플릿 인스턴스화 'ArrayData<T>'에 대한 참조를 확인하세요.
+C:\cpp\6주자과제\ArrayData.h(38,49): error C2923: 'ArrayData': 'T1'은(는) 'T' 매개 변수에 대한 올바른 템플릿 형식 인수가 아닙니다.
+C:\cpp\6주자과제\ArrayData.h(38): message : 'T1' 선언을 참조하십시오.
+C:\cpp\6주자과제\ArrayDataSmart.h(5,1): error C2955: 'ArrayData': 클래스 템플릿을(를) 사용하려면 템플릿 인수 목록이 필요합니다.
+C:\cpp\6주자과제\ArrayData.h(6): message : 'ArrayData' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...

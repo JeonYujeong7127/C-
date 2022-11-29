@@ -1,0 +1,52 @@
+﻿  과제.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1924,9): warning C4200: 비표준 확장이 사용됨: 구조체/공용 구조체의 배열 크기가 0입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1924,9): message : 이 멤버는 기본값으로 설정된 생성자 또는 복사/이동 대입 연산자에서 무시됩니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2027): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::_Wrap<_Ty>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::shared_ptr<int []> []
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2725): message : 컴파일되는 클래스 템플릿 인스턴스화 'std::_Ref_count_obj2<_Ty>'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::shared_ptr<int []> []
+          ]
+C:\cpp\4weeks\과제.cpp(141): message : 컴파일되는 함수 템플릿 인스턴스화 'std::shared_ptr<std::shared_ptr<int []> []> std::make_shared<std::shared_ptr<int []>[],int&>(int &)'에 대한 참조를 확인하세요.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(1770,1): error C2440: '=': '_Ux (*const )'에서 'std::shared_ptr<int []> *'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ux=std::shared_ptr<int []> []
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(1770,22): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2725): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::shared_ptr<std::shared_ptr<int []> []>::_Set_ptr_rep_and_enable_shared<_Ty>(_Ux (*const ),std::_Ref_count_base *const ) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::shared_ptr<int []> [],
+              _Ux=std::shared_ptr<int []> []
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2728): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::shared_ptr<std::shared_ptr<int []> []>::_Set_ptr_rep_and_enable_shared<_Ty>(_Ux (*const ),std::_Ref_count_base *const ) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=std::shared_ptr<int []> [],
+              _Ux=std::shared_ptr<int []> []
+          ]
+C:\cpp\4weeks\과제.cpp(141): message : 컴파일되는 함수 템플릿 인스턴스화 'std::shared_ptr<std::shared_ptr<int []> []> std::make_shared<std::shared_ptr<int []>[],int&>(int &)'에 대한 참조를 확인하세요.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(1770,1): error C2440: '=': '_Ux (*const )'에서 'int *'(으)로 변환할 수 없습니다.
+          with
+          [
+              _Ux=int []
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(1770,22): message : 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2725): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::shared_ptr<int []>::_Set_ptr_rep_and_enable_shared<_Ty>(_Ux (*const ),std::_Ref_count_base *const ) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int [],
+              _Ux=int []
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\memory(2728): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::shared_ptr<int []>::_Set_ptr_rep_and_enable_shared<_Ty>(_Ux (*const ),std::_Ref_count_base *const ) noexcept'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=int [],
+              _Ux=int []
+          ]
+C:\cpp\4weeks\과제.cpp(144): message : 컴파일되는 함수 템플릿 인스턴스화 'std::shared_ptr<int []> std::make_shared<int[],int&>(int &)'에 대한 참조를 확인하세요.
